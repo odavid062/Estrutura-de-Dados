@@ -62,7 +62,7 @@ classDiagram
 
 ## Como Cada Estrutura Funciona
 
-### Vetor Dinamico
+### Vetor Dinâmico
 Array que **dobra de capacidade** automaticamente quando cheio, sem o programador precisar gerenciar memória manualmente.
 
 ```
@@ -120,7 +120,7 @@ src/com/loiane/estruturadados/vetor/
 │   ├── Fila.java                  # Fila genérica (FIFO)
 │   ├── FilaComPrioridade.java     # Fila ordenada por Comparable
 │   └── testeFila/
-│       ├── Aula19..25.java        # Testes por aula
+│       ├── Aula19..24.java        # Testes por aula
 │       ├── Paciente.java          # Modelo: fila de prioridade hospitalar
 │       ├── Classe1.java
 │       └── Interface1.java
@@ -131,6 +131,8 @@ src/com/loiane/estruturadados/vetor/
 ---
 
 ## Como Executar
+
+**Pré-requisitos:** Java JDK 11 ou superior e uma IDE Java ([IntelliJ IDEA](https://www.jetbrains.com/idea/), Eclipse ou VS Code).
 
 1. Clone o repositório:
    ```bash
